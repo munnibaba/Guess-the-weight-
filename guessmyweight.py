@@ -17,7 +17,10 @@ while not guessed:
 		guessed = True
 	elif (answer > comp_weight and answer < (comp_weight + 5)):
 		print ("I'm so sorry, but you need to go slightly lower.")
-	elif (answer <comp_weight and answer > (comp_weight - 5)):
+	elif (answer < comp_weight and answer > (comp_weight - 5)):
 		print ("I'm so sorry, but you need to go slightly higher.")
 	elif (answer > comp_weight + 5 or answer < comp_weight - 5):
-		print ("You're wayyy off, dude. Try again!")
+		print ("You're wayyy off, dude. Try again!"
+        else:
+                print("Please enter valid number")
+                continue
