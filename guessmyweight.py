@@ -23,4 +23,4 @@ while not guessed:
 		print ("You're wayyy off, dude. Try again!"
         else:
                 print("Please enter valid number")
-                continue
+                continue;
